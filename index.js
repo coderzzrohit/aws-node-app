@@ -7,7 +7,8 @@ const PORT = 3000;
 const users = [
   { id: 1, name: 'Rohit', email: 'rohit@example.com' },
   { id: 2, name: 'Amit', email: 'amit@example.com' },
-  { id: 3, name: 'Sneha', email: 'sneha@example.com' }
+  { id: 3, name: 'Sneha', email: 'sneha@example.com' },
+  
 ];
 
 // Root route
@@ -18,6 +19,9 @@ app.get('/', (req, res) => {
 // GET all users
 app.get('/users', (req, res) => {
   res.json(users);
+});
+app.get('/test', (req, res) => {
+  res.json("wehbiik working fine in github");
 });
 
 // GET single user by id
