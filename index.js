@@ -21,7 +21,7 @@ app.get('/users', (req, res) => {
   res.json(users);
 });
 app.get('/test', (req, res) => {
-  res.json("wehbiik working fine in github");
+  res.json("change data ");
 });
 
 // GET single user by id
