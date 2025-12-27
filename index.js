@@ -23,6 +23,9 @@ app.get('/users', (req, res) => {
 app.get('/test', (req, res) => {
   res.json("change data ");
 });
+app.get('/new', (req, res) => {
+  res.send('AUTO DEPLOY WORKING - ROHIT 🚀');
+});
 
 // GET single user by id
 app.get('/users/:id', (req, res) => {
