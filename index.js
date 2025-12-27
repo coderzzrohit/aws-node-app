@@ -24,7 +24,7 @@ app.get('/test', (req, res) => {
   res.json("change data ");
 });
 app.get('/new', (req, res) => {
-  res.send('AUTO DEPLOY WORKING - ROHIT 🚀');
+  res.send('AUTO DEPLOY WORKING Write now- ROHIT 🚀');
 });
 
 // GET single user by id
