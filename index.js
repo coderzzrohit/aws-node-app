@@ -21,7 +21,7 @@ app.get('/users', (req, res) => {
   res.json(users);
 });
 app.get('/test', (req, res) => {
-  res.json("change data ");
+  res.json("check jenkins");
 });
 app.get('/new', (req, res) => {
   res.send('AUTO DEPLOY WORKING Write now- ROHIT 🚀');
